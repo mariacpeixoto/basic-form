@@ -1,7 +1,7 @@
 # Basic Form
 Basic form made for treining. 
 
-<p align="center"><img src="./src/assets/img/basic-form" title="Basic Form"></p>
+<p align="center"><img src="./src/assets/img/form-basic.png" title="Basic Form"></p>
 
 
 <h3>👨‍💻 Used Technology</h3>
