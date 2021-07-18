@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulário - HTML5</title>
+        <link rel="stylesheet" type="text/css" href="src/css/formulario.css"/>
+    </head>
+    <body>
+            <div id="interface">
+                <header id="cabecalho">
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="formulario.html">Home</a></li>
+                            <li><a href="#">Quem Somos</a></li>
+                            <li><a href="https://www.google.com.br/maps/place/Etec+da+Zona+Leste/@-23.523519,-46.4774307,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce616495555555:0x8076d1577db86cf1!8m2!3d-23.523519!4d-46.475242">Localização</a></li>
+                        </ul>
+                    </nav>
+                    <h1>Formulário</h1>
+                    <p>Preencha o formulário abaixo para fazermos sua avaliação.</p>
+                </header>
+                </div>
+                
+                <div id="form">
+                    <form action="#">
+
+            Nome: <input type="text" name="nome" size="40"><br><br>
+
+            Faixa Etária:
+            <select>
+                <option>Escolha aqui:
+                    <option> Menos que 15
+                        <option> Entre 15 e 25
+                            <option> Mais que 25
+            </select><br><br>
+
+            Endereço: <input type="text" name="nome" size="40">
+
+            UF: 
+            <select>
+                <option> SP
+                    <option> RJ
+                        <option> SC
+                            <option> MG
+                                <option> BA
+            </select><br><br>
+
+            Escolaridade:<br>
+            <input type="radio" name="resposta" value="altern1" checked> Fundamental<br>
+            <input type="radio" name="resposta" value="altern2"> Médio<br>
+            <input type="radio" name="resposta" value="altern2"> Graduação<br>
+            <input type="radio" name="resposta" value="altern3"> Sem Escolaridade<br><br>
+
+            Lazer:<br>
+            <input type="checkbox" name="teste1" value="opção1"> Esporte<br>
+            <input type="checkbox" name="teste2" value="opção2"> Leitura<br>
+            <input type="checkbox" name="teste3" value="opção3"> Tecnologia<br>
+            <input type="checkbox" name="teste4" value="opção4"> Nenhuma dessas opções<br><br>
+
+            Comentários:<br>
+            <textarea cols="40" rows="4" name="obs"></textarea><br>
+
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="limpa" value="Apagar tudo"><br><br>
+           </form>
+        </div>
+    </body>
+</html>
